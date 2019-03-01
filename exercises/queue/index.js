@@ -12,7 +12,7 @@ class Queue {
   constructor() {
     this.data = []
   }
-  add (record) {
+  add(record) {
     this.data.unshift(record)
   }
   remove() {
